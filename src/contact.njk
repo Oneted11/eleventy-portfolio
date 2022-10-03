@@ -6,7 +6,7 @@ layout: "base.njk"
 <h2 class="heading--main text-center">Want to get in touch?</h2>
 <p class="contact__sub-heading text-center">I'm always open to new opportunities and projects.
 </p>
-<form class="form" name="contact" action="/success" method="POST" data-netlify="true">
+<form class="form" name="contact" action="{{"/success" | url}}" method="POST" data-netlify="true">
     <div class="form__section">
         <label class="form__label" for="yourName">Name</label>
         <input class="form__input" name="name" type="text" id="yourName" required="true">
