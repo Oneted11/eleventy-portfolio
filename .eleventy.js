@@ -33,6 +33,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "public",
     },
-    pathPrefix: "/eleventy-gh-demo",
+    pathPrefix: "/eleventy-portfolio",
   };
 };
